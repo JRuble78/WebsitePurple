@@ -1,0 +1,91 @@
+body {
+  background-color: lightblue;
+  font-family: 'Travel', sans-serif;
+}
+nav {
+  background-color: darkred;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li{
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+}
+.nav-link {
+  color: yellow;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+.nav-link:cover {
+  color: darkblue;
+  font-weight: bold;
+}
+#brand .nav-link {
+  color: darkpurple;
+  font-size: 14pt;
+}
+#brand .nav-link:cover {
+  color: darkpurple;
+}
+h1 {
+  font-size: 55pt;
+  font-family: 'Travel', sans-serif;
+  color: darkred;
+  text-align: center
+}
+#home {
+  margin-top: 45px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 40vh;
+  padding-top: 1em;
+  background: url(https://images.unsplash.com/photo-1583131997607-06ef8ab7b10e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80) center 75% no-repeat fixed;
+  background-size: cover;
+}
+h3.header-tag {
+  text-align: center;
+  color: darkblue;
+  text-shadow: 2px 2px 2px darkred;
+}
+h3.header-tag {
+  margin-top: -30px;
+  font-size: 18pt;
+  }
+h2 {
+  font-family: 'Travel', sans-serif;
+  color: navyblue;
+  text-align: left
+}
+.main {
+  text-align: left;
+}
+#about {
+  margin-top: 50px;
+  display: inline-block;
+}
+#about-picture {
+  width: 30vw;
+  float: right;
+}
+#about-content {
+  width: 30vw;
+  float: left;
+}
+p {
+  font-family: 'Travel', sans-serif;
+  color: indigo;
+}
+h2 {
+  font-famiy: 'Acme', sans-serif;
+  color: purple;
+}
